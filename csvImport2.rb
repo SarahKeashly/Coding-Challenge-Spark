@@ -1,5 +1,6 @@
 require 'csv'
 require 'pry'
+require 'rspec'
 
 
 email_list_found = {}
