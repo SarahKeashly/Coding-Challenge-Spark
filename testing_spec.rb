@@ -5,7 +5,7 @@ require 'pry'
 RSpec.describe 'csvImport2' do 
   it "generates a list of contact names" do 
    contacts
-# binding.pry
+
       expect(contacts).to include( ["first_name",
       "last_name",
       "email",
@@ -21,7 +21,17 @@ RSpec.describe 'csvImport2' do
       "what_is_your_favourite_color"])
      end
 
+   it "checks if there is nil in rows 0-9" do
+      contacts
+      
+      expect(contacts).not_to include(nil)   
+   end
 
-        
+     
+   it "checks if duplicate emails are in the duplicates variable" do
+    contacts
+
+    expect(contacts[2]).to include(['woodrowdbrown@mailinator.com'])
+   end
    
 end
