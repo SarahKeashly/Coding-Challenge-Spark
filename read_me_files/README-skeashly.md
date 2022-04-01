@@ -1,3 +1,6 @@
+Ruby version: ruby 3.0.2
+RSpec version: RSpec 3.11
+
 1. Start the csvImport file by running 'ruby csvImport.rb'
 
   

@@ -58,10 +58,10 @@ require 'pry'
       end
 
     # # Report   
-    #     p "The total amount of contacts in this list is #{contact_list.length}"
+        p "The total amount of contacts in this list is #{contact_list.length}"
 
-    # # # duplicate contacts
-    #     p "The total amount of duplicated contacts in this list is #{duplicate_emails.length}"
+    # # duplicate contacts
+        p "The total amount of duplicated contacts in this list is #{duplicate_emails.length}"
 
     # #  incomplete contacts (rows for which there is no value for one or more headers, excluding Q&A columns)
         # p "The total amount of incomplete contacts where there is no value for one or more headers (excluding Q&A columns) is #{incomplete_contacts.length}"
