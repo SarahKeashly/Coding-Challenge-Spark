@@ -1,8 +1,8 @@
-require './csvImport2'
+require './csvImport'
 require 'pry'
 
 
-RSpec.describe 'csvImport2' do 
+RSpec.describe 'csvImport' do 
   it "generates a list of contact names" do 
    contacts
 
